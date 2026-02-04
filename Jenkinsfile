@@ -3,5 +3,5 @@
 
 ojtMoralesTerraform(
     gitbranch : env.BRANCH_NAME,
-    projectname = "ojt-seanalexandermorales-terraform-provision"
+    projectname : "ojt-seanalexandermorales-terraform-provision"
 )
