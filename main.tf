@@ -67,7 +67,7 @@ resource "aws_lb" "alb" {
   }
 }
 
-# Target Group
+# Target Group (TG)
 resource "aws_lb_target_group" "tg" {
   name     = "itss-ojt-Morales-alb-tg"
   port     = 80
