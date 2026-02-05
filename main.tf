@@ -90,7 +90,7 @@ resource "aws_lb_target_group" "tg" {
   }
 }
 
-# Application Load Balancer Listener
+# ALB Listener
 resource "aws_lb_listener" "listener" {
   load_balancer_arn = aws_lb.alb.arn
   port              = 80
