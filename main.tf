@@ -1,4 +1,4 @@
-# Security Groups of Application Load Balancer (ALB) and EC2 Instance
+# Security Groups of Application Load Balancer and EC2 Instance
 resource "aws_security_group" "alb_sg" {
   name   = "itss-ojt-Morales-alb-sg"
   vpc_id = var.vpc_id
