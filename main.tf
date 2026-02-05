@@ -54,7 +54,7 @@ resource "aws_security_group" "ec2_sg" {
   }
 }
 
-# Application Load Balancer
+# Application Load Balancer (ALB)
 resource "aws_lb" "alb" {
   name               = "itss-ojt-Morales-alb"
   internal           = false
