@@ -124,7 +124,7 @@ resource "aws_instance" "web" {
   }
 }
 
-# Register EC2 with the target group
+# Register EC2 with the TG
 resource "aws_lb_target_group_attachment" "attachment" {
   target_group_arn = aws_lb_target_group.tg.arn
   target_id        = aws_instance.web.id
