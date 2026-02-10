@@ -109,7 +109,7 @@ resource "aws_lb_listener" "listener" {
 
 # EC2 Instance
 resource "aws_instance" "web" {
-  ami             = "ami-039a8ebebdd2a1def"  
+  ami             = "ami-0249e9b9816d90e03"  
   instance_type   = var.instance_type
   subnet_id       = var.private_subnet_ids[0]
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
