@@ -21,7 +21,7 @@ resource "aws_security_group" "alb_sg" {
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    security_groups = []
+    security_groups = ["sg-0a0a2adc361bec9c0"]
   }
 
   tags = {
